@@ -16,7 +16,7 @@ def download_data():
 	else:
 		print(filename)			
 		with open(filename, 'w+') as data_file:
-			data = 'https://gender-pay-gap.service.gov.uk/Viewing/download-data?year=2017'
+			data = 'https://gender-pay-gap.service.gov.uk/Viewing/download-data?year=2018'
 			with requests.Session() as sesh:
 				download = sesh.get(data)
 				decoded_content = download.content.decode('utf-8')
