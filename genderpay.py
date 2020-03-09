@@ -44,10 +44,10 @@ def org_list(searchlist):
 
 	print('''
 	{}\n
-	Paygap (mean)        {}
-	Paygap (median)      {}
-	Bonus gap (mean)     {}
-	Bonus gap (median)   {}
+	Paygap (Mean)        {}
+	Paygap (Median)      {}
+	Bonus gap (Mean)     {}
+	Bonus gap (Median)   {}
 	Men with bonuses     {}
 	Women with bonuses   {}
 	'''.format(comp[0], diffpaymean, diffpaymed, diffbonusmean, diffbonusmed, malebonusmed, femalebonusmed))
