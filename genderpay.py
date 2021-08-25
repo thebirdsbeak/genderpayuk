@@ -35,12 +35,12 @@ def org_list(searchlist):
 	choice = int(input("\n>>> "))
 	comp = searchlist[choice]
 	selected_company = searchlist[choice]
-	diffpaymean = comp[4] #women paid x% less mean
-	diffpaymed = comp[5] #women paid x% less median
-	diffbonusmean = comp[6] #women paid less bonus mean
-	diffbonusmed = comp[7] #women paid less bonus median
-	malebonusmed = comp[8] #% men getting bonuses
-	femalebonusmed = comp[9] #%women getting bonuses
+	diffpaymean = comp[6] #women paid x% less mean
+	diffpaymed = comp[7] #women paid x% less median
+	diffbonusmean = comp[8] #women paid less bonus mean
+	diffbonusmed = comp[9] #women paid less bonus median
+	malebonusmed = comp[10] #% men getting bonuses
+	femalebonusmed = comp[11] #%women getting bonuses
 
 	print('''
 	{}\n
